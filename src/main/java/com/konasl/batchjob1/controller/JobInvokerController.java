@@ -20,8 +20,8 @@ public class JobInvokerController {
     JobLauncher jobLauncher;
 
     @Autowired
-    @Qualifier("processTxnJob") Job processTxnJob;
-
+    @Qualifier("processTxnJob")
+    Job processTxnJob;
 
     @RequestMapping("/invokeTxnjob")
     public String handle2() throws Exception {
